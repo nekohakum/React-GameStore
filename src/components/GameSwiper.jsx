@@ -29,10 +29,10 @@ const GameSwiper = ({ games }) => {
                 modifier: 1,
                 slideShadows: true,
             }}
-            autoplay={{
+            /* autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
-            }}
+            }} */
             modules={[EffectCoverflow, Navigation, Autoplay]}
             className="gameSwiper"
         >
